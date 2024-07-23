@@ -240,3 +240,183 @@ body {
 .quality .block-2 {
     margin-left: 28px;
 }
+
+/* courses================ */
+.courses {
+    padding: 200px 0px;
+}
+
+.courses .heading {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.76px;
+}
+
+.courses .sub-title {
+    width: 458px;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.courses .skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .card {
+    margin-top: 55px;
+    width: 370px;
+    height: 466px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+.row-card {
+    display: flex;
+    gap: 30px;
+}
+
+.card .courses-img {
+    border-radius: 12px 12px 0 0;
+    width: 370px;
+    height: 278px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 16px 22px 22px 22px;
+}
+
+.card .evaluate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.evaluate .name {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.card-body .number {
+    color: #FEA31B;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.card .star {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.card-body .desc {
+    margin-top: 6px;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.card-body .shopping {
+    margin-top: 12px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.card-body .price {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.card-body .btn-shopping {
+    width: 118px;
+    /* background: #FFB900; */
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 600;
+    /* 185.714% */
+    padding: 12px 24px;
+}
+
+/* comment============== */
+.comment {
+    background: #2E2100;
+}
+
+.comment .container {
+    display: flex;
+    padding: 96px 0;
+    align-items: center;
+}
+
+.comment .user {}
+
+.comment .block-comment {
+    position: absolute;
+    width: 740px;
+    margin-left: 430px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.block-comment .mark {
+    position: relative;
+    top: 11px;
+    right: 28px;
+}
+
+.user .name-user {
+    color: #F7F7F7;
+    font-family: Sen;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.user .role {
+    color: #BFBCB2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px;
+    /* 185.714% */
+}
+
+.comment .user-img {
+    margin-top: 18px;
+    margin-bottom: 4px;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 72px;
+}
+
+.user .dot {
+    margin-top: 28px;
+}
